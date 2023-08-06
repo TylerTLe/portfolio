@@ -57,15 +57,21 @@ export default function Intro() {
           delay:0.1,
         }}
       >
-        <Link href="#contact" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"> 
+        <Link href="#contact" className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"> 
           Contact me here 
-          <BsArrowRight />
+          <BsArrowRight className="opacity-70 group-hover:translate-x-3 transition" />
         </Link>
-        <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full" href="">Download CV <HiDownload /></a>
-        <a href="" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full"><BsLinkedin /> </a>
-        <a href="" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]"><FaGithubSquare /> </a>
+
+        <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10" href="/CV.pdf " download>
+          Download CV 
+          {/* Add CV FILE WHEN COMPLETE */}
+          <HiDownload className="opacity-60 group-hover:translate-y-3"/></a>
+
+        <a href="https://www.linkedin.com/in/tyler-thai-le/" target="_blank" rel="noreferrer noopener" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"><BsLinkedin /></a>
+
+        <a href="https://github.com/TylerTLe" target="_blank" rel="noreferrer noopener" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"><FaGithubSquare /></a>
+
       </motion.div>
     </section>
   );
 }
-// 1:50:33
