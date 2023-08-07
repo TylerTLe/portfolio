@@ -35,51 +35,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software development Diploma",
+    location: "Calgary, AB",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Expected graduation: 2024",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022-2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "AirBnb clone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: pokemonImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A full-stack Airbnb clone that has many features such as google authentication, booking/reservation system and etc.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "MongoDB", "NextAuth"],
     imageUrl: airbnbImg,
   },
   {
-    title: "Word Analytics",
+    title: "Pokemon derivative",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Created pokemon like web game for fun using html canvas and javascript",
+    tags: ["JavaScript", "HTML5", "CSS3"],
+    imageUrl: pokemonImg,
+  },
+  {
+    title: "Flow fields",
+    description:
+      "Flow fields are a technique used in computer graphics and simulations to simulate fluid motion or create interesting visual effects.",
+    tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: gengarImg,
   },
 ] as const;
@@ -93,15 +77,12 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Bash",
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Oracle SQL",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
