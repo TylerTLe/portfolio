@@ -55,7 +55,7 @@ export const projectsData = [
   {
     title: "Pokemon derivative",
     description:
-      "Created pokemon like web game for fun using html canvas and javascript",
+      "A pokemon like web game in javascript",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: pokemonImg,
   },
