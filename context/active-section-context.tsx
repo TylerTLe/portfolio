@@ -1,9 +1,8 @@
 "use client";
 
+import { SectionName } from "@/lib/types";
 import React, { createContext, useContext, useState } from "react";
-import { links } from "@/lib/data";
 
-type SectionName = (typeof links)[number]["name"];
 
 type ActionSectionContextProviderProps = {
   children: React.ReactNode;
@@ -23,7 +22,7 @@ export default function ActionSectionContextProvider({
   children,
 }: ActionSectionContextProviderProps) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
-  const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+  const [timeOfLastClick, setTimeOfLastClick] = useState(0); // used to keep track of time when last clicked to disable observer while user changes active section
 
   return (
     <ActiveSectionContext.Provider
