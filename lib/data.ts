@@ -35,10 +35,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software development Diploma",
+    title: "Software Development Diploma",
     location: "Calgary, AB",
     description:
-      "Expected graduation: 2024",
+      "Software Development diploma at the Southern Alberta Institute of Technology (SAIT) ",
     icon: React.createElement(LuGraduationCap),
     date: "2022-2024",
   },
