@@ -79,10 +79,22 @@ export const skillsData = [
   "Git",
   "Bash",
   "Tailwind",
+  "BootStrap",
   "Prisma",
   "MongoDB",
   "Oracle SQL",
-  "PostgreSQL",
+  "mySQL",
+  "Vercel",
   "Python",
-  "Framer Motion",
+  "Framer Motion",,
+  "C#",
+  ".NET",
+  "Azure"
+] as const;
+
+export const learningData = [
+  "Java",
+  "Angular",
+  "Swift",
+  "Spring",
 ] as const;
