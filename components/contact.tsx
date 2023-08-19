@@ -5,9 +5,12 @@ import SectionHeading from "./section-heading";
 import { FaPaperPlane } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { sendEmail } from "@/actions/sendEmail";
+import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const { pending } = useFormStatus();
 
   return (
     <motion.section
@@ -21,7 +24,10 @@ export default function Contact() {
         opacity: 1,
       }}
       transition={{
-        duration: 1
+        duration: 1,
+      }}
+      viewport={{
+        once: true,
       }}
     >
       <SectionHeading>Contact Me</SectionHeading>
@@ -32,14 +38,25 @@ export default function Contact() {
         </a>{" "}
         or through this form.
       </p>
-      <form className="mt-10 flex flex-col">
+      <form
+        className="mt-10 flex flex-col"
+        action={async (formData) => {
+          await sendEmail(formData);
+        }}
+      >
         <input
           className="h-14 px-4 rounded-lg borderBlack"
+          name="senderEmail"
           type="email"
+          required
+          maxLength={500}
           placeholder="Your email"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4"
+          name="message"
+          required
+          maxLength={5000}
           placeholder="Your message"
         />
         <button
