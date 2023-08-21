@@ -58,14 +58,17 @@ export const projectsData = [
   {
     title: "AirBnb clone",
     description:
-      "A full-stack Airbnb clone that has many features such as google authentication, booking/reservation system and etc.",
+      "A full-stack Airbnb clone that has many features.",
+    projectLink: "https://wanderers-retreat.vercel.app",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "MongoDB", "NextAuth"],
     imageUrl: airbnbImg,
+
   },
   {
     title: "Pokemon derivative",
     description:
-      "A pokemon like web game in javascript",
+      "A pokemon like web game in javascript. When playing use WASD to move",
+    projectLink: "https://tylerle.me/Pokemans/",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: pokemonImg,
   },
@@ -73,6 +76,7 @@ export const projectsData = [
     title: "Flow fields",
     description:
       "Flow fields are a technique used in computer graphics and simulations to simulate fluid motion or create interesting visual effects.",
+    projectLink: "https://tylerle.me/Flowfield/",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: gengarImg,
   },
