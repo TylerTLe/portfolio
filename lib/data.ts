@@ -42,6 +42,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2024",
   },
+  {
+    title: "Freelance website",
+    location: "Calgary, AB",
+    description:
+      "Website built for local cannabis company All The Smoke YYC. using: JavaScript, CSS, HTML and third-party services",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
 
 
 ] as const;
