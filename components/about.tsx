@@ -36,8 +36,7 @@ export default function About() {
         knowledge. All projects are built from the ground up, from planning and
         designing all the way to solving real-life problems with code. I am
         looking for a full time position as a{" "}
-        <span className="font-bold">software developer</span> or{" "}
-        <span className="font-bold">DevOps developer</span> at a company where I
+        <span className="font-bold">software engineer/developer</span>{" "} at a company where I
         can grow and contribute to the success of the team. Whether working
         individually or as part of a team, I am always looking for new
         challenges and opportunities to apply my skills and make a positive
@@ -45,7 +44,7 @@ export default function About() {
       </p>
 
       <p>
-        when I'm not coding, I enjoy playing video games, going to the gym, and
+        when I'm not coding, I enjoy playing video games, staying active and
         learning the guitar. I also enjoy{" "}
         <span className="font-medium">continuously learning new things</span>{" "}
         and <span className="font-medium">improving my self development</span>
