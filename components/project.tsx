@@ -40,7 +40,7 @@ export default function Project({
           href={projectLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex flex-row bg-white mt-4 mr-5 mb-4 p-2 py-3 text-center justify-center items-center text-gray-700 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:text-white/60 dark:bg-white/10"
+          className="flex bg-white mt-4 mr-5 mb-4 p-2 py-2 text-center justify-center items-center text-gray-700 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:text-white/60 dark:bg-white/10"
         >Website Link <HiExternalLink className="mx-2 justify-center items-center" size={20}/></a>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
