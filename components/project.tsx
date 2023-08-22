@@ -4,6 +4,7 @@ import { projectsData } from "@/lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
+import { HiExternalLink } from "react-icons/hi";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -39,8 +40,8 @@ export default function Project({
           href={projectLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="bg-white mt-4 mb-4 p-2 text-center justify-center text-gray-700 flex rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:text-white/60 dark:bg-white/10"
-        >Website Link</a>
+          className="flex flex-row bg-white mt-4 mr-5 mb-4 p-2 py-3 text-center justify-center items-center text-gray-700 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:text-white/60 dark:bg-white/10"
+        >Website Link <HiExternalLink className="mx-2 justify-center items-center" size={20}/></a>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
