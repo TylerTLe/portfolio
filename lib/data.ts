@@ -103,12 +103,14 @@ export const skillsData = [
   "Framer Motion",,
   "C#",
   ".NET",
-  "Azure"
+  "Azure",
+  "Java",
+  "React-native",
+  "PL/SQL",
 ] as const;
 
 export const learningData = [
   "Java",
-  "Angular",
-  "Swift",
-  "Spring",
+  "React-native",
+  "PL/SQL"
 ] as const;
