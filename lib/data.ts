@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import pokemonImg from "@/public/pokemon.png";
 import gengarImg from "@/public/gengar.png";
 import airbnbImg from "@/public/airbnb.png";
+import biteTrackerImg from "@/public/biteTracker.png";
+import flickerImg from "@/public/flicker.png";
+import nexusImg from "@/public/nexus.png";
 
 export const links = [
   {
@@ -60,14 +63,14 @@ export const projectsData = [
     description:
       "A full-stack Airbnb clone that has many features.",
     projectLink: "https://wanderers-retreat.vercel.app",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "MongoDB", "NextAuth"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Vercel"],
     imageUrl: airbnbImg,
 
   },
   {
     title: "Pokemon derivative",
     description:
-      "A pokemon like web game in javascript. When playing use WASD to move",
+      "A pokemon like web game in javascript. When playing use WASD to move.",
     projectLink: "https://tylerle.me/Pokemans/",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: pokemonImg,
@@ -80,6 +83,32 @@ export const projectsData = [
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: gengarImg,
   },
+  {
+    title: "BiteTracker",
+    description:
+      "Calorie Tracking App, an intuitive and user-friendly mobile application that helps you monitor your daily calorie intake and manage your dietary goals.",
+    projectLink: "https://github.com/TylerTLe/Phase4MobileApp",
+    tags: ["React Native", "Android Studio"],
+    imageUrl: biteTrackerImg,
+  },
+  {
+    title: "Flicker",
+    description:
+      "An all in one streaming service, combining all of your favorite streaming services into one place.",
+    projectLink: "https://www.figma.com/proto/0twL84SRHxXP1KfgDUODSS/Group-6?node-id=449-34734&starting-point-node-id=449%3A34734",
+    tags: ["Figma", "UX/UI Design"],
+    imageUrl: flickerImg,
+  },
+  {
+    title: "Nexus",
+    description:
+      "E-commerce web app where users, can sell anything, anywhere. Deployed on Vercel.",
+    projectLink: "https://nexus-e-commerce.vercel.app/",
+    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
+    imageUrl: nexusImg,
+  },
+
+
 ] as const;
 
 export const skillsData = [
@@ -94,19 +123,23 @@ export const skillsData = [
   "Bash",
   "Tailwind",
   "BootStrap",
-  "Prisma",
   "MongoDB",
   "Oracle SQL",
   "mySQL",
   "Vercel",
   "Python",
-  "Framer Motion",,
   "C#",
   ".NET",
   "Azure",
   "Java",
   "React-native",
   "PL/SQL",
+  "Data Structures",
+  "Algorithms",
+  "AWS",
+  "Figma",
+  "UX/UI Design",
+
 ] as const;
 
 export const learningData = [
