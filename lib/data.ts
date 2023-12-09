@@ -1,13 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pokemonImg from "@/public/pokemon.png";
 import gengarImg from "@/public/gengar.png";
 import airbnbImg from "@/public/airbnb.png";
-import biteTrackerImg from "@/public/biteTracker.png";
-import flickerImg from "@/public/flicker.png";
-import nexusImg from "@/public/nexus.png";
+import biteTrackerImg from "../public/biteTracker.png"
+import flickerImg from "../public/flicker.png";
+import nexusImg from "../public/nexus.png";
 
 export const links = [
   {
