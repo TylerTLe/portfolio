@@ -51,15 +51,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello! I'm Tyler.</span> I'm a{" "}
-        <span className="font-bold">Full-Stack Developer </span> currently
-        attending{" "}
+        <span className="font-bold">Building Tomorrow's Tech, Today </span> |{" "}
         <span className="underline">
-          the Southern Alberta Institute of Technology. (SAIT)
+          Student At Southern Alberta Institute of Technology. (SAIT).
         </span>{" "}
         <span className="italic">
-          I am constantly seeking opportunities to learn and expand my
-          knowledge.
+        My Full-Stack Development journey is about more than code—it's about creating solutions that resonate with the future.
         </span>
       </motion.h1>
 

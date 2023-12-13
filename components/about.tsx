@@ -27,27 +27,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
+      Welcome! I’m Tyler, an aspiring software engineer with a thirst for<span className="font-bold"> innovation</span> and a penchant for <span className="font-bold">problem-solving. </span>
+
         I'm a <span className="font-bold">software development student</span> at
         the{" "}
         <span className="underline">
           Southern Alberta Institute of Technology (SAIT)
         </span>
-        . I am constantly seeking opportunities to learn and expand my
-        knowledge. All projects are built from the ground up, from planning and
-        designing all the way to solving real-life problems with code. I am
-        looking for a full time position as a{" "}
-        <span className="font-bold">software engineer/developer</span>{" "} at a company where I
-        can grow and contribute to the success of the team. Whether working
-        individually or as part of a team, I am always looking for new
-        challenges and opportunities to apply my skills and make a positive
-        impact.
+        . I believe that the essence of software development lies in the joy of turning ideas into reality — a process that encompasses meticulous planning, creative design, and ultimately, the crafting of clean, efficient code. I'm on the lookout for a full-time role where I can merge my enthusiasm for tech with a commitment to contributing meaningfully to a dynamic team. 
       </p>
-
       <p>
-        when I'm not coding, I enjoy playing video games, staying active and
-        learning the guitar. I also enjoy{" "}
-        <span className="font-medium">continuously learning new things</span>{" "}
-        and <span className="font-medium">improving my self development</span>
+      Beyond code, I embrace a dynamic balance of wellness and wanderlust. Regular workouts sharpen my focus, while travel expands my creativity. In the spirit of constant growth, I'm dedicated to lifelong learning and self-improvement, enriching both my personal and professional life.
       </p>
     </motion.section>
   );
