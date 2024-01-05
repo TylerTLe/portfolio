@@ -51,9 +51,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Building Tomorrow's Tech, Today </span> |{" "}
+        <span className="font-bold">Building Tomorrow's Tech, Today </span> <br/>{" "}
         <span className="underline">
-          Student At Southern Alberta Institute of Technology. (SAIT).
+          Student At Southern Alberta Institute of Technology. (SAIT)<br/>
         </span>{" "}
         <span className="italic">
         My Full-Stack Development journey is about more than code—it's about creating solutions that resonate with the future.
