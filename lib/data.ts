@@ -70,7 +70,7 @@ export const projectsData = [
     title: "Pokemon derivative",
     description:
       "A pokemon like web game in javascript. When playing use WASD to move.",
-    projectLink: "https://tylerle.me/Pokemans/",
+    projectLink: "https://tylertle.github.io/Pokemans/",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: pokemonImg,
   },
@@ -78,7 +78,7 @@ export const projectsData = [
     title: "Flow fields",
     description:
       "Flow fields are a technique used in computer graphics and simulations to simulate fluid motion or create interesting visual effects.",
-    projectLink: "https://tylerle.me/Flowfield/",
+    projectLink: "https://tylertle.github.io/Flowfield/",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: gengarImg,
   },
