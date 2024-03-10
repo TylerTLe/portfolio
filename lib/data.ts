@@ -125,7 +125,7 @@ export const skillsData = [
   "MongoDB",
   "Oracle SQL",
   "mySQL",
-  "Vercel",
+  "Next.js",
   "Python",
   "C#",
   ".NET",
@@ -142,7 +142,7 @@ export const skillsData = [
 ] as const;
 
 export const learningData = [
-  "Java",
-  "React-native",
-  "PL/SQL"
+  "ORMs",
+  "Restful API",
+  "TypeScript"
 ] as const;
