@@ -34,6 +34,7 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+  
 ] as const;
 
 export const experiencesData = [
@@ -53,6 +54,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
+
 ] as const;
 
 export const projectsData = [
@@ -114,6 +116,7 @@ export const projectsData = [
       tags: ["Figma", "UX/UI Design"],
       imageUrl: flickerImg,
     },
+
 ] as const;
 
 export const skillsData = [
@@ -146,6 +149,7 @@ export const skillsData = [
   "UX/UI Design",
   "Docker",
   "Android Studio",
+
 ] as const;
 
 export const learningData = [
@@ -155,4 +159,5 @@ export const learningData = [
   "GraphQL",
   "Docker",
   "Kubernetes",
+
 ] as const;

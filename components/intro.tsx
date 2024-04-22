@@ -53,7 +53,7 @@ export default function Intro() {
       >
         <span className="font-bold">Building Tomorrow's Tech, Today </span> <br/>{" "}
         <span className="underline">
-          Student At Southern Alberta Institute of Technology. (SAIT)<br/>
+          Graduate from Southern Alberta Institute of Technology. (SAIT)<br/>
         </span>{" "}
         <span className="italic">
         My Full-Stack Development journey is about more than code—it's about creating solutions that resonate with the future.
