@@ -53,8 +53,6 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
-
-
 ] as const;
 
 export const projectsData = [
@@ -116,8 +114,6 @@ export const projectsData = [
       tags: ["Figma", "UX/UI Design"],
       imageUrl: flickerImg,
     },
-
-
 ] as const;
 
 export const skillsData = [
@@ -148,9 +144,8 @@ export const skillsData = [
   "AWS",
   "Figma",
   "UX/UI Design",
-  "Docker"
-
-
+  "Docker",
+  "Android Studio",
 ] as const;
 
 export const learningData = [
