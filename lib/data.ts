@@ -7,6 +7,7 @@ import airbnbImg from "@/public/airbnb.png";
 import flickerImg from "@/public/flicker.png";
 import biteTrackerImg from "@/public/BiteTracker.png"
 import nexusImg from "@/public/Nexus.png";
+import capstone from "@/public/capstone.png";
 
 export const links = [
   {
@@ -58,6 +59,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Nexus",
+    description:
+      "E-commerce web app where users, can sell anything, anywhere. Deployed on Vercel.",
+    projectLink: "https://nexus-e-commerce.vercel.app/",
+    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
+    imageUrl: nexusImg,
+  },
+  {
+    title: "Gen-Track Capstone",
+    description:
+      "Gen-Track Connect is a web app that tracks student volunteer hours for affordable housing in senior communities.",
+    projectLink: "",
+    tags: ["React", "Next.js", "CSS3", "Prisma", "MongoDB", "NextAuth"],
+    imageUrl: capstone,
+
+  },
+  {
     title: "AirBnb clone",
     description:
       "A full-stack Airbnb clone that has many features.",
@@ -94,18 +112,10 @@ export const projectsData = [
     title: "Flicker",
     description:
       "An all in one streaming service, combining all of your favorite streaming services into one place.",
-    projectLink: "https://www.figma.com/proto/0twL84SRHxXP1KfgDUODSS/Group-6?node-id=449-34734&starting-point-node-id=449%3A34734",
-    tags: ["Figma", "UX/UI Design"],
-    imageUrl: flickerImg,
-  },
-  {
-    title: "Nexus",
-    description:
-      "E-commerce web app where users, can sell anything, anywhere. Deployed on Vercel.",
-    projectLink: "https://nexus-e-commerce.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
-    imageUrl: nexusImg,
-  },
+      projectLink: "https://www.figma.com/proto/0twL84SRHxXP1KfgDUODSS/Group-6?node-id=449-34734&starting-point-node-id=449%3A34734",
+      tags: ["Figma", "UX/UI Design"],
+      imageUrl: flickerImg,
+    },
 
 
 ] as const;
@@ -131,18 +141,23 @@ export const skillsData = [
   ".NET",
   "Azure",
   "Java",
-  "React-native",
+  "React-Native",
   "PL/SQL",
   "Data Structures",
   "Algorithms",
   "AWS",
   "Figma",
   "UX/UI Design",
+  "Docker"
+
 
 ] as const;
 
 export const learningData = [
   "ORMs",
   "Restful API",
-  "TypeScript"
+  "TypeScript",
+  "GraphQL",
+  "Docker",
+  "Kubernetes",
 ] as const;
