@@ -149,6 +149,7 @@ export const skillsData = [
   "UX/UI Design",
   "Docker",
   "Android Studio",
+  "Software Testing",
 
 ] as const;
 
