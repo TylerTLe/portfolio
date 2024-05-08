@@ -154,6 +154,7 @@ export const skillsData = [
 ] as const;
 
 export const learningData = [
+  "C",
   "ORMs",
   "Restful API",
   "TypeScript",
