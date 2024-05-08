@@ -34,13 +34,13 @@ export default function About() {
         <span className="underline">
           Southern Alberta Institute of Technology (SAIT) for
           <span className="font-bold"> Software Development</span>
-        </span>
-        . I believe that the essence of software development lies in the joy of
-        turning ideas into reality — a process that encompasses meticulous
-        planning, creative design, and ultimately, the crafting of clean,
-        efficient code. I'm on the lookout for a full-time role where I can
-        merge my enthusiasm for tech with a commitment to contributing
-        meaningfully to a dynamic team.
+        </span>{" "}
+        with a<span className="font-bold"> 3.8 GPA</span>. I believe that the
+        essence of software development lies in the joy of turning ideas into
+        reality — a process that encompasses meticulous planning, creative
+        design, and ultimately, the crafting of clean, efficient code. I'm on
+        the lookout for a full-time role where I can merge my enthusiasm for
+        tech with a commitment to contributing meaningfully to a dynamic team.
       </p>
       <p>
         Beyond code, I embrace a dynamic balance of wellness and wanderlust.

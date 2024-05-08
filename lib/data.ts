@@ -39,10 +39,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Development Diploma",
+    title: "Software Development Diploma 3.8 GPA",
     location: "Calgary, AB",
     description:
-      "2 year Software Development Diploma at the Southern Alberta Institute of Technology (SAIT) Learning many languages such as: Java, C#, JavaScript, Python",
+      "Software Development Diploma at the Southern Alberta Institute of Technology (SAIT) Learning many languages such as: Java, C#, JavaScript, Python",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2024",
   },
