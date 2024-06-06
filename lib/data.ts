@@ -5,7 +5,7 @@ import pokemonImg from "@/public/pokemon.png";
 import gengarImg from "@/public/gengar.png";
 import airbnbImg from "@/public/airbnb.png";
 import flickerImg from "@/public/flicker.png";
-import biteTrackerImg from "@/public/BiteTracker.png"
+import biteTrackerImg from "@/public/BiteTracker.png";
 import nexusImg from "@/public/Nexus.png";
 import capstone from "@/public/capstone.png";
 
@@ -34,7 +34,6 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-  
 ] as const;
 
 export const experiencesData = [
@@ -50,11 +49,18 @@ export const experiencesData = [
     title: "Freelance website",
     location: "Calgary, AB",
     description:
-      "Website built for local cannabis company All The Smoke YYC. using: JavaScript, CSS, HTML and third-party services",
+      "Website built for local cannabis company All The Smoke YYC. using: JavaScript, CSS, HTML and third-party services such as SquareSpace",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
-
+  {
+    title: "Product Owner | Back-End Developer, Sun-Sab",
+    location: "Calgary, AB",
+    description:
+      "Leading a team of 5 at Sun-Sab, developing a wellbore trajectory web app using C# and Nextjs, implementing agile methodologies to enhance team efficiency, and utilizing D3.js and Three.js for graphing solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -73,16 +79,22 @@ export const projectsData = [
     projectLink: "",
     tags: ["React", "Next.js", "CSS3", "Prisma", "MongoDB", "NextAuth"],
     imageUrl: capstone,
-
   },
   {
     title: "AirBnb clone",
-    description:
-      "A full-stack Airbnb clone that has many features.",
+    description: "A full-stack Airbnb clone that has many features.",
     projectLink: "https://wanderers-retreat.vercel.app",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Vercel"],
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Prisma",
+      "MongoDB",
+      "NextAuth",
+      "Vercel",
+    ],
     imageUrl: airbnbImg,
-
   },
   {
     title: "Pokemon derivative",
@@ -112,11 +124,11 @@ export const projectsData = [
     title: "Flicker",
     description:
       "An all in one streaming service, combining all of your favorite streaming services into one place.",
-      projectLink: "https://www.figma.com/proto/0twL84SRHxXP1KfgDUODSS/Group-6?node-id=449-34734&starting-point-node-id=449%3A34734",
-      tags: ["Figma", "UX/UI Design"],
-      imageUrl: flickerImg,
-    },
-
+    projectLink:
+      "https://www.figma.com/proto/0twL84SRHxXP1KfgDUODSS/Group-6?node-id=449-34734&starting-point-node-id=449%3A34734",
+    tags: ["Figma", "UX/UI Design"],
+    imageUrl: flickerImg,
+  },
 ] as const;
 
 export const skillsData = [
@@ -150,7 +162,6 @@ export const skillsData = [
   "Docker",
   "Android Studio",
   "Software Testing",
-
 ] as const;
 
 export const learningData = [
@@ -161,5 +172,4 @@ export const learningData = [
   "GraphQL",
   "Docker",
   "Kubernetes",
-
 ] as const;
