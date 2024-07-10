@@ -7,6 +7,7 @@ import ThemeSwitch from "../components/theme-switch";
 import ActionSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
 import CursorLight from "@/components/Cursor";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           <ActionSectionContextProvider>
             <Header />
             {children}
+            <Analytics />
             <Footer />
             <Toaster position="top-left" />
             <ThemeSwitch />
