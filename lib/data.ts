@@ -4,7 +4,6 @@ import { LuGraduationCap } from "react-icons/lu";
 import gengarImg from "@/public/gengar.png";
 import biteTrackerImg from "@/public/BiteTracker.png";
 import nexusImg from "@/public/Nexus.png";
-import capstone from "@/public/capstone.png";
 import drillPilot from "@/public/drillpilot.png";
 
 export const links = [
@@ -70,15 +69,6 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
     imageUrl: nexusImg,
   },
-  {
-    title: "Gen-Track Capstone",
-    description:
-      "Gen-Track Connect is a web app that tracks student volunteer hours for affordable housing in senior communities.",
-    projectLink: "",
-    tags: ["React", "Next.js", "CSS3", "Prisma", "MongoDB", "NextAuth"],
-    imageUrl: capstone,
-  },
-
   {
     title: "Flow fields",
     description:
