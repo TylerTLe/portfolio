@@ -1,13 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import pokemonImg from "@/public/pokemon.png";
 import gengarImg from "@/public/gengar.png";
-import airbnbImg from "@/public/airbnb.png";
-import flickerImg from "@/public/flicker.png";
 import biteTrackerImg from "@/public/BiteTracker.png";
 import nexusImg from "@/public/Nexus.png";
-import capstone from "@/public/capstone.png";
+import drillPilot from "@/public/drillpilot.png";
 
 export const links = [
   {
@@ -46,18 +43,10 @@ export const experiencesData = [
     date: "2022 - 2024",
   },
   {
-    title: "Freelance website",
+    title: " Back-End Developer | Product Owner , Sun-Sab",
     location: "Calgary, AB",
     description:
-      "Website built for local cannabis company All The Smoke YYC. using: JavaScript, CSS, HTML and third-party services such as SquareSpace",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
-    title: "Product Owner | Back-End Developer, Sun-Sab",
-    location: "Calgary, AB",
-    description:
-      "Leading a team of 5 at Sun-Sab, developing a wellbore trajectory web app using C# and Nextjs, implementing agile methodologies to enhance team efficiency, and utilizing D3.js and Three.js for graphing solutions.",
+      "Leading a team of 5 at Sun-Sab, developing drill pilot, a wellbore trajectory web app using C# and Nextjs, implementing agile methodologies to enhance team efficiency, and utilizing D3.js for graphing solutions.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
@@ -65,44 +54,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Drill Pilot",
+    description:
+      "Web application designed for petroleum drilling analysis",
+    projectLink: "https://drillpilot.sunsab.com/",
+    tags: ["Next.js", "C#", "Tailwind", "SwaggerUI", "mantine"],
+    imageUrl: drillPilot,
+  },
+  {
     title: "Nexus",
     description:
       "E-commerce web app where users, can sell anything, anywhere. Deployed on Vercel.",
     projectLink: "https://nexus-e-commerce.vercel.app/",
     tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
     imageUrl: nexusImg,
-  },
-  {
-    title: "Gen-Track Capstone",
-    description:
-      "Gen-Track Connect is a web app that tracks student volunteer hours for affordable housing in senior communities.",
-    projectLink: "",
-    tags: ["React", "Next.js", "CSS3", "Prisma", "MongoDB", "NextAuth"],
-    imageUrl: capstone,
-  },
-  {
-    title: "AirBnb clone",
-    description: "A full-stack Airbnb clone that has many features.",
-    projectLink: "https://wanderers-retreat.vercel.app",
-    tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "Prisma",
-      "MongoDB",
-      "NextAuth",
-      "Vercel",
-    ],
-    imageUrl: airbnbImg,
-  },
-  {
-    title: "Pokemon derivative",
-    description:
-      "A pokemon like web game in javascript. When playing use WASD to move.",
-    projectLink: "https://tylertle.github.io/Pokemans/",
-    tags: ["JavaScript", "HTML5", "CSS3"],
-    imageUrl: pokemonImg,
   },
   {
     title: "Flow fields",
@@ -119,15 +84,6 @@ export const projectsData = [
     projectLink: "https://github.com/TylerTLe/Phase4MobileApp",
     tags: ["React Native", "Android Studio"],
     imageUrl: biteTrackerImg,
-  },
-  {
-    title: "Flicker",
-    description:
-      "An all in one streaming service, combining all of your favorite streaming services into one place.",
-    projectLink:
-      "https://www.figma.com/proto/0twL84SRHxXP1KfgDUODSS/Group-6?node-id=449-34734&starting-point-node-id=449%3A34734",
-    tags: ["Figma", "UX/UI Design"],
-    imageUrl: flickerImg,
   },
 ] as const;
 
