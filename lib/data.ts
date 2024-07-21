@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import gengarImg from "@/public/gengar.png";
+import gengarImg from "@/public/gengar.gif";
 import biteTrackerImg from "@/public/BiteTracker.png";
 import nexusImg from "@/public/Nexus.png";
 import drillPilot from "@/public/drillpilot.png";
@@ -55,8 +55,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Drill Pilot",
-    description:
-      "Web application designed for petroleum drilling analysis",
+    description: "Web application designed for petroleum drilling analysis",
     projectLink: "https://drillpilot.sunsab.com/",
     tags: ["Next.js", "C#", "Tailwind", "SwaggerUI", "mantine"],
     imageUrl: drillPilot,
