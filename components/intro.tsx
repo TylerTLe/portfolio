@@ -49,15 +49,22 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Crafting Tomorrow’s Solutions, Today </span>{" "}
+        <span>Hi, my name is</span> <span className="font-bold">Tyler</span>{" "}
         <br />{" "}
-        <span className="underline">
-          Graduate from Southern Alberta Institute of Technology. (SAIT)
-          <br />
-        </span>{" "}
-        <span className="italic">
-          Turning Ideas into Reality through Full-Stack Development
-        </span>
+        <div className="mt-2">
+          <div id="outer" className=" flex flex-col">
+            <h1 className="text-5xl">
+              <div className="inner h-12 uppercase overflow-hidden">
+                  <span className="relative text-[#e6af2e]">
+                    Back-End Developer <br/>
+                    Product Owner <br/>
+                    Software Developer <br/>
+                  </span>
+              </div>
+            </h1>
+          </div>
+          <span className="italic"> from Calgary, Alberta</span>
+        </div>
       </motion.h1>
 
       <motion.div
@@ -70,7 +77,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-white/10 text-black shadow-xl  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 hover:bg-gray-400/40 active:scale-105 transition dark:text-gray-200 dark:border-gray-500 dark:shadow-slate-600 dark:shadow-md"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -81,7 +88,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 hover:text-gray-950 transition cursor-pointer border borderBlack dark:bg-white/10"
+          className="bg-white/10 text-black  shadow-xl px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:text-gray-200 dark:border-gray-500 dark:shadow-slate-600 dark:shadow-md hover:bg-gray-400/40"
           href="/CV.pdf "
           download
         >
@@ -94,7 +101,7 @@ export default function Intro() {
           href="https://www.linkedin.com/in/tyler-thai-le/"
           target="_blank"
           rel="noreferrer noopener"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:text-white/60 dark:bg-white/10"
+          className="bg-white/10 text-black  shadow-xl p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 transition dark:text-gray-200 dark:border-gray-500 dark:shadow-slate-600 dark:shadow-md hover:bg-gray-400/40"
         >
           <BsLinkedin />
         </a>
@@ -103,7 +110,7 @@ export default function Intro() {
           href="https://github.com/TylerTLe"
           target="_blank"
           rel="noreferrer noopener"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:text-white/60 dark:bg-white/10"
+          className="bg-white/10 text-black  shadow-xl p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 transition dark:text-gray-200 dark:border-gray-500 dark:shadow-slate-600 dark:shadow-md hover:bg-gray-400/40"
         >
           <FaGithubSquare />
         </a>
