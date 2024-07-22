@@ -26,7 +26,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3"> I'm a
+      <span className="mb-3"> I'm a
         <span className="font-bold"> Recent graduate</span> from the{" "}
         <span className="underline">
           Southern Alberta Institute of Technology (SAIT)
@@ -39,7 +39,7 @@ export default function About() {
           thrive on learning new technologies and improving my skills.
         </p>
         <p>Explore my work and feel free to connect with me!</p>
-      </p>
+      </span>
     </motion.section>
   );
 }

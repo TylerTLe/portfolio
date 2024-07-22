@@ -56,3 +56,11 @@ html {
     top: -150px;
   }
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .inner span {
+    animation-duration: 6s; /* Adjust the duration as needed */
+    transition: 300ms ease; /* Adjust the transition time as needed */
+  }
+}

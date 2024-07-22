@@ -49,7 +49,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span>Hi, my name is</span> <span className="font-bold">Tyler</span>{" "}
+        <span>Hi, my name is</span> <span className="font-bold">Tyler.</span>{" "}
         <br />{" "}
         <div className="mt-2">
           <div id="outer" className=" flex flex-col">
@@ -59,6 +59,7 @@ export default function Intro() {
                     Back-End Developer <br/>
                     Product Owner <br/>
                     Software Developer <br/>
+                    Front-End Developer <br/>
                   </span>
               </div>
             </h1>
