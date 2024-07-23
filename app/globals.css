@@ -62,5 +62,8 @@ html {
   .inner span {
     animation-duration: 6s; /* Adjust the duration as needed */
     transition: 300ms ease; /* Adjust the transition time as needed */
+    font-size: 2rem;
   }
 }
+
+
