@@ -56,7 +56,7 @@ export const projectsData = [
   {
     title: "Drill Pilot",
     description: "Web application designed for petroleum drilling analysis",
-    projectLink: "https://drillpilot.sunsab.com/",
+    projectLink: "https://drillpilot.vercel.app/",
     tags: ["Next.js", "C#", "Tailwind", "SwaggerUI", "mantine"],
     imageUrl: drillPilot,
   },
