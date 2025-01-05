@@ -5,6 +5,7 @@ import gengarImg from "@/public/gengar.gif";
 import biteTrackerImg from "@/public/BiteTracker.png";
 import nexusImg from "@/public/Nexus.png";
 import drillPilot from "@/public/drillpilot.png";
+import ktman from "@/public/KTM.png";
 
 export const links = [
   {
@@ -54,19 +55,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "KT Mangement",
+    description:
+      "A app for construction companies to manage employees, assign jobs, track hours and attendance, and process payroll",
+    projectLink: "",
+    tags: ["Next.js", "Java", "Spring Boot", "Hibernate", "Tailwind"],
+    imageUrl: ktman,
+  },
+  {
     title: "Drill Pilot",
     description: "Web application designed for petroleum drilling analysis",
     projectLink: "https://drillpilot.vercel.app/",
     tags: ["Next.js", "C#", "Tailwind", "SwaggerUI", "mantine"],
     imageUrl: drillPilot,
-  },
-  {
-    title: "Nexus",
-    description:
-      "E-commerce web app where users, can sell anything, anywhere. Deployed on Vercel.",
-    projectLink: "https://nexus-e-commerce.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
-    imageUrl: nexusImg,
   },
   {
     title: "Flow fields",
@@ -75,6 +76,14 @@ export const projectsData = [
     projectLink: "https://tylertle.github.io/Flowfield/",
     tags: ["JavaScript", "HTML5", "CSS3"],
     imageUrl: gengarImg,
+  },
+  {
+    title: "Nexus",
+    description:
+      "E-commerce web app where users, can sell anything, anywhere. Deployed on Vercel.",
+    projectLink: "https://nexus-e-commerce.vercel.app/",
+    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Oauth"],
+    imageUrl: nexusImg,
   },
   {
     title: "BiteTracker",
