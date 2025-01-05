@@ -126,14 +126,11 @@ export const skillsData = [
   "Docker",
   "Android Studio",
   "Software Testing",
+  "Restful API",
 ] as const;
 
 export const learningData = [
-  "C",
-  "ORMs",
-  "Restful API",
-  "TypeScript",
-  "GraphQL",
-  "Docker",
-  "Kubernetes",
+  "Python",
+  "AI",
+  "Machine Learning",
 ] as const;
