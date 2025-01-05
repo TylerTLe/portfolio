@@ -59,7 +59,7 @@ export const projectsData = [
     description:
       "A app for construction companies to manage employees, assign jobs, track hours and attendance, and process payroll",
     projectLink: "",
-    tags: ["Next.js", "Java", "Spring Boot", "Hibernate", "Tailwind"],
+    tags: ["Next.js", "Java", "Spring Boot", "Hibernate", "MYSQL"],
     imageUrl: ktman,
   },
   {
