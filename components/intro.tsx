@@ -57,9 +57,9 @@ export default function Intro() {
               <div className="inner h-12 uppercase overflow-hidden">
                   <span className="relative text-[#e6af2e]">
                     Back-End Developer <br/>
-                    Product Owner <br/>
                     Software Developer <br/>
-                    Front-End Developer <br/>
+                    Back-End Developer <br/>
+                    Software Engineer <br/>
                   </span>
               </div>
             </h1>

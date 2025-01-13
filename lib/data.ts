@@ -49,8 +49,17 @@ export const experiencesData = [
     description:
       "Leading a team of 5 at Sun-Sab, developing drill pilot, a wellbore trajectory web app using C# and Nextjs, implementing agile methodologies to enhance team efficiency, and utilizing D3.js for graphing solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - Present",
+    date: " May 2024 - Sept 2024",
   },
+  {
+    title: " Teaching Assistant - C#, ComIT",
+    location: "Calgary, AB",
+    description:
+      "Conducted weekly lab sessions for a class of 15+ students, providing hands-on guidance in C# programming concepts, including object-oriented programming, LINQ, and ASP.NET. Assisted students in debugging code and understanding C# principles, such as asynchronous programming and exception handling",
+    icon: React.createElement(CgWorkAlt),
+    date: " Jan 2025 - Present",
+  },
+
 ] as const;
 
 export const projectsData = [
